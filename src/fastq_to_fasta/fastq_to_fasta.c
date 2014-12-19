@@ -43,6 +43,7 @@ const char* usage=
 "   [-z]         = Compress output with GZIP.\n" \
 "   [-i INFILE]  = FASTA/Q input file. default is STDIN.\n" \
 "   [-o OUTFILE] = FASTA output file. default is STDOUT.\n" \
+"   [-Q QUALITYTYPE] = FASTQ quality score type. 33 for Sanger, 64 for Solexa.  Default is Illumina.\n" \
 "\n";
 
 FASTX fastx;
